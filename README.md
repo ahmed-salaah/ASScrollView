@@ -24,3 +24,10 @@ ios 6.1 or later
 		[self.view addSubview:asScroll];
 
 ## Sample Screenshots
+![ScreenShot1](https://github.com/ahmed-salaah/ASScrollView/blob/master/ScreenShot1.png)
+
+![ScreenShot2](https://github.com/ahmed-salaah/ASScrollView/blob/master/ScreenShot2.png)
+
+![ScreenShot3](https://github.com/ahmed-salaah/ASScrollView/blob/master/ScreenShot3.png)
+
+![ScreenShot4](https://github.com/ahmed-salaah/ASScrollView/blob/master/ScreenShot4.png)
