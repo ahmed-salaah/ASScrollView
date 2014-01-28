@@ -19,7 +19,7 @@ ios 6.1 or later
 	  
 	    ASScroll *asScroll = [[ASScroll alloc]initWithFrame:CGRectMake(0.0,0.0,320.0,460.0)];
 
-3. set ArrOfImages with ur imagesArray 
+3. set ArrOfImages with your imagesName  
 
  	   [asScroll setArrOfImages:imagesArray];
 	
