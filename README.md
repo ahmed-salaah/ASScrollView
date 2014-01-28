@@ -3,11 +3,8 @@ ASScrollView
 ASScroll View is an ios control  which scroll between image with fading animation and it can be used as an image gallery  
 
 ## Sample Screenshots
-![screenShot1](https://raw.github.com/ahmed-salaah/ASScrollView/master/ScreenShots/ScreenShot3.png)
+![screenShot](https://raw.github.com/ahmed-salaah/ASScrollView/master/ScreenShots/ScreenShot.png)
 
-![screenShot2](https://raw.github.com/ahmed-salaah/ASScrollView/master/ScreenShots/ScreenShot1.png)![screenShot3](https://raw.github.com/ahmed-salaah/ASScrollView/master/ScreenShots/ScreenShot2.png)
-
-![screenShot4](https://raw.github.com/ahmed-salaah/ASScrollView/master/ScreenShots/ScreenShot4.png)
 
 ## Requirements
 ios 6.1 or later
