@@ -21,7 +21,7 @@ ios 6.1 or later
 
 3. set ArrOfImages with your imagesName  
 
- 	   [asScroll setArrOfImages:imagesArray];
+ 	   [asScroll setArrOfImages:imagesNameArray];
 	
 4. add  Asscroll view  to your View
 
