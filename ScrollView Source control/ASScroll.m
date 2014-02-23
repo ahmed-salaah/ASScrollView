@@ -67,6 +67,7 @@
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
+    [self cancelScrollAnimation];
     previousTouchPoint = scrollView.contentOffset.x;
 }
 
@@ -77,7 +78,6 @@
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     [pageControl setCurrentPage:scrollview.bounds.origin.x/scrollview.frame.size.width];
-    [self cancelScrollAnimation];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -94,7 +94,7 @@
         page = page+2;
     else
         page = page+1;
-    
+
     UIView *nextPage = [scrollView.superview viewWithTag:page+1];
     UIView *previousPage = [scrollView.superview viewWithTag:page-1];
     UIView *currentPage = [scrollView.superview viewWithTag:page];

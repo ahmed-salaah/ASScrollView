@@ -252,6 +252,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Ahmed Salah";
+				TargetAttributes = {
+					7E9C1338185388CE00C3217F = {
+						DevelopmentTeam = X5CM273426;
+					};
+				};
 			};
 			buildConfigurationList = 7E9C1334185388CE00C3217F /* Build configuration list for PBXProject "AS ScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -401,10 +406,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "5045A2D9-B9D1-495D-AE53-FE944132EC3E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5045A2D9-B9D1-495D-AE53-FE944132EC3E";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -427,10 +432,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "5045A2D9-B9D1-495D-AE53-FE944132EC3E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5045A2D9-B9D1-495D-AE53-FE944132EC3E";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -439,14 +444,16 @@
 		7E9C1372185388CF00C3217F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: ahmed salah (2FNZM778J7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ahmed salah (2FNZM778J7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrollView Source control/AS ScrollView-Prefix.pch";
 				INFOPLIST_FILE = "ScrollView Source control/AS ScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "AS ScrollView";
-				PROVISIONING_PROFILE = "9CFD8127-31A4-49CA-B5FC-E19E7B943C57";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9CFD8127-31A4-49CA-B5FC-E19E7B943C57";
+				SDKROOT = iphoneos7.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,14 +461,16 @@
 		7E9C1373185388CF00C3217F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: ahmed salah (2FNZM778J7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ahmed salah (2FNZM778J7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrollView Source control/AS ScrollView-Prefix.pch";
 				INFOPLIST_FILE = "ScrollView Source control/AS ScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "AS ScrollView";
-				PROVISIONING_PROFILE = "9CFD8127-31A4-49CA-B5FC-E19E7B943C57";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9CFD8127-31A4-49CA-B5FC-E19E7B943C57";
+				SDKROOT = iphoneos7.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
