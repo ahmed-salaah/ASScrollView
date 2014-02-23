@@ -9,7 +9,7 @@ ASScroll View is an ios control  which scroll between image with fading animatio
 
 
 ## Requirements
-ios 6.1 or later
+ios 4.1 or later
 
 ###Manual
 1. Check out the project
