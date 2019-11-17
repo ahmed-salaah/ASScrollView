@@ -11,11 +11,11 @@ ASScroll View is an ios control  which scroll between image with fading animatio
 ## Requirements
 ios 4.1 or later
 
-###Manual
+### Manual
 1. Check out the project
 2. Add all files in `ASScroll` folder to Xcode
 
-##Usage
+## Usage
 1. Import `ASScroll.h` in your view controller
 2. Implement  ASScroll
 	  
